@@ -1,4 +1,4 @@
-var downloadTxtUrl = 'https://raw.githubusercontent.com/nextcodelab/HostJson/main/DeveloperInfo.json';
+var downloadTxtUrl = 'https://raw.githubusercontent.com/nextcodelab/hosthson/main/developerInfo.json';
 var responseResult;
 function ChangeText() {
 
