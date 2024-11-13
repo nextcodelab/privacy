@@ -100,6 +100,13 @@
     <script>
         var appName = "Robel S Inghog";  // Define the variable here
         document.body.innerHTML = document.body.innerHTML.replace(/{{appName}}/g, appName);
+
+        var appName = "NextCcodeLab";  // Define the app name
+        var startYear = 2011;  // Define the start year
+        var currentYear = new Date().getFullYear();  // Get the current year
+        var endYear = currentYear;  // Set the end year as the current year
+        // Replace placeholders for dynamic values
+        document.getElementById("tag_date").innerHTML = "This policy is effective as of " + startYear + "-" + endYear;
     </script>
 </body>
 </html>
